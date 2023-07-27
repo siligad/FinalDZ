@@ -16,8 +16,8 @@ static uint AckermannFunction(uint n, uint m)
 }
  
 uint M,N;
-Console.Write("Введите число начала диапазона:");
+Console.Write("Введите число M:");
 M=uint.Parse(Console.ReadLine());
-Console.Write("Введите число конца диапазона:");
+Console.Write("Введите число N:");
 N=uint.Parse(Console.ReadLine());
 Console.WriteLine($"Функия Аккермана A({M},{N})={AckermannFunction(M, N)}");
